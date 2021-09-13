@@ -22,7 +22,7 @@ TextureImporter:
     second: healingFountain_1
   - first:
       213: -1347233719151212251
-    second: healingFountain_3
+    second: healingFountain_2
   - first:
       213: 7870480730772048316
     second: wall_1
@@ -31,7 +31,7 @@ TextureImporter:
     second: wall_2
   - first:
       213: -5599750456436461424
-    second: wal_3
+    second: wall_3
   - first:
       213: -7450669156800766785
     second: wall_4
@@ -380,7 +380,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: healingFountain_3
+      name: healingFountain_2
       rect:
         serializedVersion: 2
         x: 0
@@ -443,7 +443,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wal_3
+      name: wall_3
       rect:
         serializedVersion: 2
         x: 0
@@ -1312,7 +1312,7 @@ TextureImporter:
         width: 8
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
