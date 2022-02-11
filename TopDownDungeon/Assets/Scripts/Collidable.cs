@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(BoxCollider2D))] // automatically add a collider 2D to your object
+//[RequireComponent(typeof(BoxCollider2D))] // automatically add a collider 2D to your object
 public class Collidable : MonoBehaviour
 {
     public ContactFilter2D filter2D;

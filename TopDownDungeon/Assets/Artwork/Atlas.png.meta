@@ -177,6 +177,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -186,8 +187,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -208,6 +209,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -1324,6 +1327,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: chest_0
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375b93b1c57d89d44b38c88beec6d9b5
+      internalID: 1405956881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ece1e35c7968a4486cf26dda0af483
+      internalID: 1333648332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1334,6 +1379,60 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      pillar_1: 2185041290902523119
+      crates_2: -7479814810284170135
+      chest_0: 1405956881
+      stairs_0: 4355180666568580090
+      wall_0: -6721728136321296765
+      crates_1: 7214893647509974784
+      stairs_1: 5894979182433546639
+      torch_0: 4596313960938759734
+      floor_7: -2834699621007424056
+      wall_1: 7870480730772048316
+      floor_5: -9106852675655700425
+      pillar_2: 8970763576347242229
+      torch_2: 4101294306171259788
+      player_0: 4018074224661003100
+      floor_4: -8369517905372312421
+      wall_3: -5599750456436461424
+      wall_5: -4272707242783423304
+      torch_6: 620111541035404702
+      healingFountain_0: 5327950094024008212
+      torch_3: 8340130823153958410
+      wall_8: -3513202607186615407
+      floor_2: -1291705123832498677
+      floor_10: -4446556834619780616
+      healingFountain_1: 6615319868462110837
+      chest_1: 1333648332
+      torch_4: -9037411367760340442
+      pillar_3: 2466828561161279858
+      floor_6: 745968338076216934
+      torch_1: 219433517873854331
+      wall_9: -9198928466637730507
+      torch_5: -2285114424382770006
+      floor_0: -7826287199498012479
+      player_1: -4869357254534750094
+      pillar_4: 3235062197104327778
+      crates_3: -7424474914276003461
+      wall_2: -407774699277236136
+      wall_6: 1726203059708922746
+      healingFountain_2: -1347233719151212251
+      floor_8: -2217874986795218178
+      floor_11: -2151125692419375991
+      torch_7: -2016447386726003157
+      torch_8: -6026731920720571777
+      floor_9: 2748396297729853354
+      floor_1: 3823991837180300354
+      wall_4: -7450669156800766785
+      floor_12: 7029400602700474323
+      stairs_2: -7503008079389545076
+      floor_3: 7182614658172301277
+      pillar_5: 6913638643635410091
+      stairs_3: -7566632554201152900
+      pillar_0: 2592197434785513267
+      wall_7: 3628468241054914511
+      crates_0: 5035139237759867391
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
