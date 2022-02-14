@@ -2,10 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Chest : Collidable
+public class Chest : Collectable
 {
-    protected override void OnCollide(Collider2D coll)
+    public Sprite emptyChest;
+    public int pesoAmount = 5;
+
+    protected override void OnCollect()
     {
-        Debug.Log("Grand Peso");    //print in the console if the player has collide with the chest
+        if (!collected)
+        {
+            collected = true;
+            
+            GetComponent<SpriteRenderer>().sprite = emptyChest;     //change the chest sprite to empty chest sprite
+            Debug.Log("Grant " + pesoAmount + " peso!");
+        }
     }
 }
