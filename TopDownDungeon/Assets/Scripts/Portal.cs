@@ -11,6 +11,9 @@ public class Portal : Collidable
     {
         if (coll.name == "Player")
         {
+            // call the save state 
+            GameManager.instance.SaveState();
+
             // Tele port the player
 
             // this line create a new scene by itself and it gonna pick between 0 and the length of the scene array
